@@ -2,10 +2,38 @@
 <html>
 <head>
   <title>HRERR Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
   <style>
     #hero {
       margin-top: 30px;
     }
+    body {
+      font-family: 'Quicksand', sans-serif;
+    }
+    header {
+  background-color: #ffe5b4; /* soft peach */
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* space between links */
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff7f50; /* coral on hover */
+}
+
   </style>
 </head>
 
@@ -14,9 +42,9 @@
   <header>
     <h1>Happy. Relaxed. Engaged.</h1>
     <nav>
-      <div><a href="#about">Who We Are</a></div>
-      <div><a href="#why">Our Why</a></div>
-      <div><a href="#contact">Let us know</a></div>
+      <a href="#about">Who We Are</a>
+      <a href="#why">Our Why</a>
+      <a href="#contact">Let us know</a>
     </nav>
   </header>
 
