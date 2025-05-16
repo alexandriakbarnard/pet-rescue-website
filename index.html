@@ -47,7 +47,7 @@ nav a:hover {
   text-align: center;
   padding: 40px 20px;
   border-radius: 12px;
-  color: white; /
+  color: white;
 }
 
     button {
@@ -102,6 +102,33 @@ footer {
 .pet-card img {
   width: 100%;
   border-radius: 8px;
+}
+.adopt-button {
+  background-color: #ffcc99;
+  color: #333;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.adopt-button:hover {
+  background-color: #ffa366;
+}
+@media (max-width: 600px) {
+  .pet-card {
+    width: 100%;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
 }
 
     
